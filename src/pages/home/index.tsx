@@ -1,10 +1,10 @@
 import React from 'react';
+import { Header } from 'components';
 
 const Home = () => (
-  <div className="bg-secondary">
-    <h1 className="text-3xl font-bold underline">
-      Wellcome to catify
-    </h1>
+  <div>
+    <Header />
+    <h1>Content</h1>
   </div>
 );
 
