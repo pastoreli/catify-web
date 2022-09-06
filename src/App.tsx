@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+import './style/index.css';
+import Routes from './routes';
 
 const App = () => {
   return (
-    <div>
-      Wellcome to catify
-    </div>
+    <Routes />
   );
 }
 
