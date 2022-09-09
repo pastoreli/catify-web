@@ -1,10 +1,11 @@
 import React from 'react';
-import { Header } from 'components';
+import BrandSection from './sections/brandSection';
+import CourseSection from './sections/courseSection';
 
 const Home = () => (
-  <div>
-    <Header />
-    <h1>Content</h1>
+  <div className="container">
+    <BrandSection />
+    <CourseSection />
   </div>
 );
 
